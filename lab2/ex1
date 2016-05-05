@@ -1,0 +1,4 @@
+SELECT last_name, first_name, department_id 
+FROM employees
+WHERE department_id = 30
+ORDER BY last_name, first_name;
