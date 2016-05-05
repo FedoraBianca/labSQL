@@ -1,0 +1,4 @@
+SELECT last_name, first_name, job_id, salary, commission_pct, (commission_pct*salary + salary) 
+FROM employees
+WHERE commission_pct > 0.2
+ORDER BY (commission_pct*salary + salary) ;
